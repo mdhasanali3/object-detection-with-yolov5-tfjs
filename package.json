@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mdhasanali3.github.io/t",
+  "homepage": "https://mdhasanali3.github.io/object-detection-with-yolov5-tfjs",
   "name": "testyolo",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo git@github.com:mdhasanali3/t.git",
+    "deploy": "gh-pages -d build --repo git@github.com:mdhasanali3/object-detection-with-yolov5-tfjs.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
