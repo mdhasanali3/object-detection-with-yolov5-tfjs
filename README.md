@@ -1,7 +1,23 @@
-## npm install 
+### This is a object detection demostration with react magicdrop and latest yolov5 v6 with tensorflowjs.
+
+if you are interested to run on your local machine.
 
 
-## npm start
+clone this repo 
+
+
+then run npm install 
+
+
+then npm start
+
+
+please be sure to upgrade model & weights
+
+
+you can check this app demo on 
+
+https://mdhasanali3.github.io/object-detection-with-yolov5-tfjs/
 
 
 # preview of work
