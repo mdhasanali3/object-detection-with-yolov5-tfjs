@@ -139,14 +139,14 @@ class App extends React.Component {
   };
 
   render() {
-    return (    // magic drop zone//
+    return (    // magic drop zone// // ternary operator////nested ternary operator //
       <div className="Dropzone-page">
- // ternary operator//
+
         {this.state.model ?
          (
           <MagicDropzone className="Dropzone" accept="image/jpeg, image/png, .jpg, .jpeg, .png"
            multiple={true} onDrop={this.onDrop} >
- //nested ternary operator //
+ 
             {this.state.preview ? 
             (
             <img alt="upload preview" onLoad={this.onImageChange} className="Dropzone-img" src={this.state.preview}/>)
